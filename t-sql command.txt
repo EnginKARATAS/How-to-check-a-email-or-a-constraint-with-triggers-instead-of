@@ -1,7 +1,4 @@
---# How to check a email or a constraint with triggers-instead of
- --With this code, check your mask
- 
- --Check email with istead of trigger
+--Check email with istead of trigger
 
 create TRIGGER CheckEmail ON Activeusers INSTEAD OF INSERT
 
